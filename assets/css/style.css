@@ -1,0 +1,14 @@
+.jumbotron {
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    padding: 2px;
+}
+
+body {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+}
+
+.card {
+    text-align: center;
+}
