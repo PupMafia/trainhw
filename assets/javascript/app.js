@@ -59,6 +59,8 @@ database.ref().on("child_added", function(childSnapshot, prevChildKey) {
   console.log(tdest);
   console.log(tfreq);
 
+  $(".list-group-item").append("<tr><td>" + tname + "</td><td>" + tdest + "</td><td>" +
+  ttime + "</td><td>" + tfreq + "</td></tr>");
   
 
 });
